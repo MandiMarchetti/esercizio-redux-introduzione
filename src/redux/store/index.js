@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
+import mainReducer from "../reducers";
 
-configureStore({
-    reducer: 
+const resultFavorites = configureStore({
+  reducer: mainReducer,
+});
 
-})
-
-export default configureStore
+export default resultFavorites;
